@@ -11,8 +11,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(400, 400);
-  image(img);
+  //createCanvas(400, 400);
+  createImage(img);
   //let b_load = createFileInput(loadRating);
 
   splitImage(img);
